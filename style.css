@@ -91,12 +91,14 @@ img{
     width:550px;    
     height: 300px;
     border: 2px solid rgb(255, 255, 255);
+    text-align: center;
 
 }
 
 .data{
-    justify-content: center;
+    
     column-span: all;
+    
 }
 input{
     width:350px;
@@ -105,4 +107,11 @@ input{
 .right a:hover{
     color:rgb(57, 52, 52)
 }
-
+.btn{
+    height:30px;
+    width:120px;
+    margin:5px;
+}
+.btn:hover{
+    color:rgb(50, 64, 64);
+}
